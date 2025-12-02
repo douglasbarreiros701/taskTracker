@@ -3,7 +3,7 @@ package org.taskTracker;
 import java.time.LocalDate;
 import java.util.UUID;
 
-public class TaskManager {
+public class Task {
 
     private UUID id;
     private String description;
@@ -11,18 +11,16 @@ public class TaskManager {
     private LocalDate createdAt;
     private LocalDate updatedAt;
 
-    public TaskManager(String description, TaskStatus status, LocalDate createdAt, LocalDate updatedAt){
+    public Task(String description){
         this.id = UUID.randomUUID();
         this.description = description;
         this.status = status;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
 
+        System.out.println(id);
+
     }
-
-
-
-
 
 
 

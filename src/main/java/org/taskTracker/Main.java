@@ -6,6 +6,10 @@ public class Main {
 
 
 
+        TaskManager manager = new TaskManager();
+        manager.createTask("Apenas um teste");
+
+
     }
 
 }

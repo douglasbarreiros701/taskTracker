@@ -1,6 +1,6 @@
 package org.taskTracker;
 
-public enum TaskState {
+public enum TaskStatus {
     PENDING,
     IN_PROGRESS,
     COMPLETED
