@@ -11,9 +11,11 @@ public class Task {
     private LocalDate createdAt;
     private LocalDate updatedAt;
 
+    Listen listen = new Listen(); //Escutando o que foi colocado no prompt
+
     public Task(String description){
         this.id = UUID.randomUUID();
-        this.description = description;
+        this.description = listen.listenning() ;
         this.status = status;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
