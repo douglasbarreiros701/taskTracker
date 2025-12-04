@@ -15,12 +15,12 @@ public class Task {
 
     public Task(String description){
         this.id = UUID.randomUUID();
-        this.description = listen.listenning() ;
+        this.description = description;
         this.status = status;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
 
-        System.out.println(id);
+        System.out.println("Id sendo gerado: " + id);
 
     }
 

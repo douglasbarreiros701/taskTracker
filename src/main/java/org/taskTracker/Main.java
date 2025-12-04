@@ -6,13 +6,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        TaskManager manager = new TaskManager();
-        Listen listen = new Listen();
+    Switch s1 = new Switch();
+    s1.options();
 
-        switch (listen){ //Implementando a escolha das opções
-            case x:
-
-        }
 
 
 

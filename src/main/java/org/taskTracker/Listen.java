@@ -7,7 +7,9 @@ public class Listen {
 
     public String listenning() {
         Scanner scanner = new Scanner(System.in);
-        String scannerString = scanner.toString();
+        String scannerString = scanner.next();
+
+        System.out.println("Executando switch");
 
         return scannerString;
     }

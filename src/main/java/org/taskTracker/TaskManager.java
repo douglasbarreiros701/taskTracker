@@ -9,6 +9,8 @@ public class TaskManager {
 
     public void createTask(Task task){
         tasks.add(task);
+
+        System.out.println("Executando task manager");
     }
 
 
